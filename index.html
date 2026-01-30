@@ -3,26 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung - [App Name]</title>
+    <title>Memosy - Deine digitale Zeitkapsel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .footer { margin-top: 50px; font-size: 0.8em; color: #777; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050a18;
+            color: #e2e8f0;
+        }
+
+        .gold-gradient {
+            background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn-gold {
+            background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%);
+            color: #050a18;
+            transition: all 0.3s ease;
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(250, 204, 21, 0.3);
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(250, 204, 21, 0.1);
+            border-radius: 1.5rem;
+        }
+
+        .screenshot-shadow {
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #facc15;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050a18;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #ca8a04;
+            border-radius: 10px;
+        }
     </style>
 </head>
-<body>
-    <h1>Datenschutzerklärung</h1>
-    <p>Diese App ("Memosy") legt großen Wert auf den Schutz Ihrer Daten. Da die App lokal arbeitet, werden kaum Daten erhoben.</p>
-    
-    <h2>1. Lokale Datenverarbeitung</h2>
-    <p>Sämtliche mit der Kamera oder dem Mikrofon aufgenommenen Daten sowie im lokalen Speicher abgelegte Dateien verbleiben ausschließlich auf Ihrem Endgerät. Es findet keine Übertragung an den Entwickler oder Dritte statt.</p>
+<body class="antialiased">
 
-    <h2>2. In-App-Käufe</h2>
-    <p>Käufe werden über den Google Play Store bzw. Apple App Store abgewickelt. Es gelten die Datenschutzbestimmungen der jeweiligen Plattformbetreiber.</p>
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-opacity-80 bg-[#050a18] backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="memosy_icon_ohne_hintergrund.jpg" alt="Memosy Icon" class="w-10 h-10 rounded-xl shadow-lg">
+                <span class="text-2xl font-bold tracking-tight gold-gradient">Memosy</span>
+            </div>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#" class="nav-link">Features</a>
+                <a href="#" class="nav-link">Anwendung</a>
+                <a href="#" class="nav-link">Premium</a>
+                <div class="h-4 w-[1px] bg-white/20"></div>
+                <a href="#" class="nav-link flex items-center gap-1"><i class="fas fa-globe"></i> DE</a>
+                <a href="#" class="nav-link">Impressum</a>
+                <a href="#" class="nav-link">Datenschutz</a>
+            </nav>
 
-    <h2>3. Kontakt / Impressum</h2>
-    <p>Firma Ich<br>Adresse Meine<br>Meil steht oben</p>
+            <!-- Mobile Menu Toggle -->
+            <button class="md:hidden text-2xl text-yellow-400">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
 
-    <div class="footer">Stand: Januar 2026</div>
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight">
+                    Deine Momente für die <span class="gold-gradient">Ewigkeit</span> versiegelt.
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
+                    Mit Memosy erstellst du digitale Zeitkapseln, die Erinnerungen sicher verschließen. Gedanken, Fotos und Sprachnachrichten – erst zum richtigen Zeitpunkt wieder sichtbar.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#" class="btn-gold px-8 py-4 rounded-full font-bold text-center flex items-center justify-center gap-2">
+                        <i class="fab fa-google-play"></i> Jetzt herunterladen
+                    </a>
+                    <a href="#" class="border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/5 transition text-center">
+                        Mehr erfahren
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 flex justify-center relative">
+                <!-- Main Logo with Glow -->
+                <div class="absolute inset-0 bg-yellow-500/10 blur-[100px] rounded-full"></div>
+                <img src="memosy_logo_ohne_hintergrund.jpg" alt="Memosy Logo" class="relative w-full max-w-md animate-pulse">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-24 bg-white/5">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Warum Memosy?</h2>
+                <p class="text-slate-400">Kleine Momente gehen oft verloren. Wir halten sie fest.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="glass-card p-8">
+                    <div class="w-12 h-12 bg-yellow-500/20 rounded-2xl flex items-center justify-center mb-6 text-yellow-400">
+                        <i class="fas fa-clock text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Zeit-Schloss</h3>
+                    <p class="text-slate-400">Du bestimmst das Öffnungsdatum. Vorher bleibt die Kapsel fest versiegelt. Ein echter Countdown der Vorfreude.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="glass-card p-8">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400">
+                        <i class="fas fa-lock text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Verschlüsselt & Privat</h3>
+                    <p class="text-slate-400">Deine Daten gehören dir. Alles wird lokal auf deinem Gerät abgelegt und sicher verschlüsselt gespeichert.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="glass-card p-8">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 text-purple-400">
+                        <i class="fas fa-microphone text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Multimedia</h3>
+                    <p class="text-slate-400">Kombiniere Texte, Fotos und Sprachnachrichten, um die Stimmung des Augenblicks perfekt einzufangen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Showcase -->
+    <section class="py-24 overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">Ein Interface, das <span class="gold-gradient">begeistert</span>.</h2>
+                    <p class="text-slate-400 mb-8">
+                        Wir haben Memosy so gestaltet, dass die Bedienung intuitiv ist und Spaß macht. Klare Strukturen, ein schönes Dark-Theme und emotionale Animationen begleiten dich beim Erstellen deiner Zeitkapseln.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-yellow-400"></i> Einfache Übersicht deiner Kapseln
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-yellow-400"></i> Schnelle Multimedia-Inhalte
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-yellow-400"></i> Sicherer Biometrischer Login
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2 flex gap-4 overflow-x-auto pb-8 snap-x">
+                    <img src="flutter_01.jpg" alt="App Screenshot Login" class="w-64 rounded-3xl screenshot-shadow snap-center">
+                    <img src="flutter_02.jpg" alt="App Screenshot Dashboard" class="w-64 rounded-3xl screenshot-shadow snap-center">
+                    <img src="flutter_03.png" alt="App Screenshot Creation" class="w-64 rounded-3xl screenshot-shadow snap-center">
+                    <img src="flutter_04.jpg" alt="App Screenshot Modal" class="w-64 rounded-3xl screenshot-shadow snap-center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="glass-card p-12 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-8 opacity-10">
+                    <i class="fas fa-crown text-9xl text-yellow-400"></i>
+                </div>
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl font-bold mb-6">Memosy <span class="gold-gradient">Premium</span></h2>
+                    <h3 class="text-2xl font-semibold mb-4 text-yellow-400">Das perfekte Geschenk</h3>
+                    <p class="text-lg text-slate-300 mb-8">
+                        Erstelle eine Kapsel, versiegele sie und sende die Datei an Freunde oder Familie. Der Empfänger importiert sie, sieht das Schloss und muss warten, bis der Countdown abgelaufen ist. Ideal für Geburtstage, Hochzeiten oder Weihnachten!
+                    </p>
+                    <button class="btn-gold px-10 py-4 rounded-full font-bold">In der App freischalten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-24 bg-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Wofür nutzt du Memosy?</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6">
+                    <i class="fas fa-heart text-4xl text-red-400 mb-4"></i>
+                    <h4 class="font-bold mb-2">Hochzeiten</h4>
+                    <p class="text-sm text-slate-400">Nachrichten zum 1. Hochzeitstag senden.</p>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-baby text-4xl text-blue-400 mb-4"></i>
+                    <h4 class="font-bold mb-2">Geburt</h4>
+                    <p class="text-sm text-slate-400">Erinnerungen für das Kind in 18 Jahren.</p>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-gift text-4xl text-purple-400 mb-4"></i>
+                    <h4 class="font-bold mb-2">Geburtstage</h4>
+                    <p class="text-sm text-slate-400">Vorfreude verschenken statt nur Materielles.</p>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-user-secret text-4xl text-green-400 mb-4"></i>
+                    <h4 class="font-bold mb-2">Self-Growth</h4>
+                    <p class="text-sm text-slate-400">Briefe an dein zukünftiges Ich schreiben.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 mt-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center gap-3">
+                    <img src="memosy_icon_ohne_hintergrund.jpg" alt="Memosy Icon" class="w-8 h-8 rounded-lg">
+                    <span class="text-xl font-bold gold-gradient">Memosy</span>
+                </div>
+                <div class="flex gap-6 text-sm text-slate-500">
+                    <a href="#" class="hover:text-yellow-400">Impressum</a>
+                    <a href="#" class="hover:text-yellow-400">Datenschutz</a>
+                    <a href="#" class="hover:text-yellow-400">Support</a>
+                </div>
+                <div class="text-sm text-slate-500">
+                    &copy; 2026 Memosy. Alle Rechte vorbehalten.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple scroll effect for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-2xl', 'bg-[#050a18]');
+            } else {
+                header.classList.remove('shadow-2xl');
+            }
+        });
+    </script>
 </body>
 </html>
