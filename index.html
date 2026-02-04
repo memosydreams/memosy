@@ -333,6 +333,10 @@
         }
 
         function changeLanguage(lang) {
+            if (appData.translations[lang]["page_title"]) {
+                document.title = appData.translations[lang]["page_title"];
+            }           
+
             if (!appData.translations || !appData.translations[lang]) return;
 
             document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -349,6 +353,14 @@
             document.documentElement.lang = lang;
 
             langDropdown.classList.add('hidden');
+
+            document.querySelectorAll('#lang-dropdown button').forEach(btn => {
+                if (btn.getAttribute('onclick').includes(`'${lang}'`)) {
+                    btn.classList.add('text-yellow-400', 'font-bold');
+                } else {
+                    btn.classList.remove('text-yellow-400', 'font-bold');
+                }
+            });
         }
 
         document.addEventListener('DOMContentLoaded', initApp);
