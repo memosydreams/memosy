@@ -43,7 +43,19 @@
       "reason_three_body": "Vorfreude verschenken statt nur Materielles.",
       "reason_last_head": "Self-Growth",
       "reason_last_body": "Briefe an dein zukünftiges Ich schreiben.",  
-      "footer_rights": "&copy; 2026 Memosy. Alle Rechte vorbehalten."
+      "footer_rights": "&copy; 2026 Memosy. Alle Rechte vorbehalten.",
+      "privacy": "Impressum",
+      "privacy_sub": "Angaben gemäß § 5 TMG",
+      "provider": "Diensteanbieter",
+      "contact": "Kontaktmöglichkeiten",
+      "contact_mail": "E-Mail-Adresse: <a class='text-yellow-400 hover:underline'>memosydreams[at]gmail.com</a>",
+      "legal_head": "Haftung für Inhalte",
+      "legal_body_part1": "Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+      "legal_links_head":"Haftung für Links",
+      "legal_links_part1":"Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+      "rights_head":"Urheberrecht",
+      "rights_body":"Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
+      "timevalue": "Stand: Januar 2026"
     },
     "en": {
       "page_title": "Memosy - Your digital time capsule",
@@ -79,7 +91,19 @@
       "reason_three_body": "Give the gift of anticipation instead of just material things.",
       "reason_last_head": "Self-Growth",
       "reason_last_body": "Write letters to your future self.",
-      "footer_rights": "&copy; 2026 Memosy. All rights reserved."
+      "footer_rights": "&copy; 2026 Memosy. All rights reserved.",
+      "privacy": "Legal Notice",
+      "privacy_sub": "Information according to § 5 TMG",
+      "provider": "Service Provider",
+      "contact": "Contact Options",
+      "contact_mail": "Email address: <a class='text-yellow-400 hover:underline'>memosydreams[at]gmail.com</a>",
+      "legal_head": "Liability for Content",
+      "legal_body_part1": "As a service provider, we are responsible for our own content on these pages in accordance with § 7 Para. 1 TMG and general laws. However, according to §§ 8 to 10 TMG, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+      "legal_links_head": "Liability for Links",
+      "legal_links_part1": "Our offer contains links to external websites of third parties, whose content we have no influence over. Therefore, we cannot assume any liability for this external content. The respective provider or operator of the pages is always responsible for the content of the linked pages.",
+      "rights_head": "Copyright",
+      "rights_body": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator.",
+      "timevalue": "As of: January 2026"
     },
     "es": {
       "page_title": "Memosy - Tu cápsula del tiempo digital",
@@ -115,7 +139,19 @@
       "reason_three_body": "Regala ilusión en lugar de solo cosas materiales.",
       "reason_last_head": "Crecimiento personal",
       "reason_last_body": "Escribe cartas a tu futuro yo.",
-      "footer_rights": "&copy; 2026 Memosy. Todos los derechos reservados."
+      "footer_rights": "&copy; 2026 Memosy. Todos los derechos reservados.",
+      "privacy": "Aviso Legal",
+      "privacy_sub": "Información según la § 5 de la TMG",
+      "provider": "Proveedor de servicios",
+      "contact": "Opciones de contacto",
+      "contact_mail": "Correo electrónico: <a class='text-yellow-400 hover:underline'>memosydreams[at]gmail.com</a>",
+      "legal_head": "Responsabilidad por los contenidos",
+      "legal_body_part1": "Como proveedores de servicios, somos responsables de nuestros propios contenidos en estas páginas de acuerdo con el § 7 párrafo 1 de la TMG y las leyes generales. Sin embargo, según los §§ 8 a 10 de la TMG, no estamos obligados a supervisar la información ajena transmitida o almacenada ni a investigar circunstancias que indiquen una actividad ilegal.",
+      "legal_links_head": "Responsabilidad por los enlaces",
+      "legal_links_part1": "Nuestra oferta contiene enlaces a sitios web externos de terceros, sobre cuyos contenidos no tenemos influencia. Por lo tanto, no podemos asumir ninguna responsabilidad por estos contenidos ajenos. El proveedor o administrador de las páginas es siempre el responsable de los contenidos de las páginas enlazadas.",
+      "rights_head": "Derechos de autor",
+      "rights_body": "Los contenidos y obras creados por los administradores de este sitio están sujetos a la legislación alemana sobre derechos de autor. La reproducción, edición, distribución y cualquier tipo de explotación fuera de los límites de la ley de derechos de autor requieren el consentimiento por escrito del respectivo autor o creador.",
+      "timevalue": "Versión de: enero de 2026"
     },
     "fr": {
       "page_title": "Memosy - Votre capsule temporelle numérique",
@@ -151,7 +187,19 @@
       "reason_three_body": "Offrez de l'impatience joyeuse plutôt que du matériel.",
       "reason_last_head": "Développement personnel",
       "reason_last_body": "Écrivez des lettres à votre futur moi.",
-      "footer_rights": "&copy; 2026 Memosy. Tous droits réservés."
+      "footer_rights": "&copy; 2026 Memosy. Tous droits réservés.",
+      "privacy": "Mentions Légales",
+      "privacy_sub": "Informations conformément au § 5 de la TMG",
+      "provider": "Prestataire de services",
+      "contact": "Options de contact",
+      "contact_mail": "Adresse e-mail : <a class='text-yellow-400 hover:underline'>memosydreams[at]gmail.com</a>",
+      "legal_head": "Responsabilité du contenu",
+      "legal_body_part1": "En tant que prestataire de services, nous sommes responsables de nos propres contenus sur ces pages conformément au § 7 al. 1 de la TMG et aux lois générales. Selon les §§ 8 à 10 de la TMG, nous ne sommes toutefois pas tenus de surveiller les informations tierces transmises ou enregistrées, ni de rechercher des circonstances indiquant une activité illégale.",
+      "legal_links_head": "Responsabilité pour les liens",
+      "legal_links_part1": "Notre offre contient des liens vers des sites web externes de tiers, sur le contenu desquels nous n'avons aucune influence. Par conséquent, nous ne pouvons assumer aucune responsabilité pour ces contenus tiers. Le fournisseur ou l'exploitant respectif des pages est toujours responsable du contenu des pages liées.",
+      "rights_head": "Droit d'auteur",
+      "rights_body": "Les contenus et œuvres créés par les exploitants du site sur ces pages sont soumis au droit d'auteur allemand. La reproduction, le traitement, la diffusion et toute forme d'exploitation en dehors des limites du droit d'auteur nécessitent l'accord écrit de l'auteur ou du créateur respectif.",
+      "timevalue": "État : janvier 2026"
     },
     "it": {
       "page_title": "Memosy - La tua capsula del tempo digitale",
@@ -187,7 +235,19 @@
       "reason_three_body": "Regala l'attesa invece di semplici oggetti.",
       "reason_last_head": "Crescita personale",
       "reason_last_body": "Scrivi lettere al tuo io futuro.",
-      "footer_rights": "&copy; 2026 Memosy. Tutti i diritti riservati."
+      "footer_rights": "&copy; 2026 Memosy. Tutti i diritti riservati.",
+      "privacy": "Note Legali",
+      "privacy_sub": "Informazioni ai sensi del § 5 TMG",
+      "provider": "Fornitore di servizi",
+      "contact": "Opzioni di contatto",
+      "contact_mail": "Indirizzo e-mail: <a class='text-yellow-400 hover:underline'>memosydreams[at]gmail.com</a>",
+      "legal_head": "Responsabilità per i contenuti",
+      "legal_body_part1": "In qualità di fornitori di servizi, siamo responsabili dei nostri contenuti su queste pagine ai sensi del § 7 comma 1 TMG e delle leggi generali. Tuttavia, secondo i §§ da 8 a 10 TMG, non siamo obbligati a monitorare le informazioni di terzi trasmesse o memorizzate né a ricercare circostanze che indichino un'attività illecita.",
+      "legal_links_head": "Responsabilità per i link",
+      "legal_links_part1": "La nostra offerta contiene link a siti web esterni di terzi, sui cui contenuti non abbiamo alcuna influenza. Pertanto, non possiamo assumerci alcuna responsabilità per questi contenuti esterni. Il fornitore o il gestore delle pagine è sempre responsabile del contenuto delle pagine collegate.",
+      "rights_head": "Diritto d'autore",
+      "rights_body": "I contenuti e le opere creati dai gestori del sito su queste pagine sono soggetti alla legge tedesca sul diritto d'autore. La riproduzione, l'elaborazione, la diffusione e qualsiasi tipo di sfruttamento al di fuori dei limiti del diritto d'autore richiedono il consenso scritto del rispettivo autore o creatore.",
+      "timevalue": "Aggiornato a: gennaio 2026"
     }
   }
 }
